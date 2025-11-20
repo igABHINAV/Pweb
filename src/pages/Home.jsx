@@ -5,6 +5,7 @@ import About from "../components/About/About";
 import Contact from "../components/Contact/Contact";
 import FixSocialIcon from "../components/SocialIcon/FixSocialIcon";
 import Experience from "../components/Experience/Experience";
+import Education from "../components/Education/Education";
 
 const Home = () => (
   <React.Fragment>
@@ -12,6 +13,7 @@ const Home = () => (
     <About />
     <Experience />
     <Projects />
+    <Education />
     <Contact />
     <FixSocialIcon />
   </React.Fragment>
